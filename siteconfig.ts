@@ -112,7 +112,6 @@ const config: SiteConfig = {
       "Python Scripting",
       "Bash Scripting",
       "Git Version Control",
-      "Docker",
       "Vulnerability Assessment",
     ],
   },
@@ -182,7 +181,7 @@ const config: SiteConfig = {
     {
       school: "University of Transport Ho Chi Minh City",
       degree: "B.Sc. Information Technology — Cybersecurity Focus",
-      period: "2023 - Present",
+      period: "2023 - Present | 3rd Year Student",
     },
   ],
   certifications: [
@@ -202,7 +201,7 @@ const config: SiteConfig = {
   seo: {
     title: "Trinh Lam Quoc Vinh — Cybersecurity Portfolio",
     description: "Cybersecurity student exploring Red & Blue Team techniques. Hands-on labs in web security, network analysis, detection engineering, and incident response.",
-    url: "https://your-domain.vercel.app",
+    url: "https://ekjs.vercel.app",
     keywords: [
       "cybersecurity",
       "red team",

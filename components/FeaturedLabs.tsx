@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import { ArrowRight } from 'lucide-react'
+
 import Section from '@/components/ui/Section'
 import { Button } from '@/components/ui/Button'
 import LabCard from '@/components/LabCard'
@@ -35,9 +35,8 @@ export default function FeaturedLabs() {
         {config.labs.length > featuredLabs.length && (
           <div className="text-center mt-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <Button size="lg" asChild>
-              <Link href="/labs">
+              <Link href="/labs" className="flex items-center justify-center">
                 View All Labs
-                <ArrowRight className="h-4 w-4" />
               </Link>
             </Button>
           </div>

@@ -60,8 +60,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 animate-fade-in">
               {config.features.cv && (
                 <Button size="lg" asChild>
-                  <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
-                    <Download className="h-4 w-4" />
+                  <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="w-full text-center">
                     Download CV
                   </a>
                 </Button>
@@ -70,12 +69,10 @@ export default function Hero() {
               <Button variant="outline" size="lg" asChild>
                 <Link href="/labs">
                   View Labs
-                  <ArrowRight className="h-4 w-4" />
                 </Link>
               </Button>
             </div>
           </div>
-
           {/* Stats Card */}
           <div className="relative animate-slide-in-right">
             <div className="card floating-card neon-border" style={{ 
