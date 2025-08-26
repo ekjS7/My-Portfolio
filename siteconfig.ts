@@ -80,7 +80,7 @@ const config: SiteConfig = {
     "Gen‑Z defender‑attacker hybrid, focused on practical labs. I break things to understand them and then build guardrails so teams ship safely. Currently exploring offensive security techniques and defensive countermeasures through hands-on lab work.",
   avatar: "/avatar.jpg",
   socials: {
-    github: "https://github.com/QuocVinhTrinhLam",
+    github: "https://github.com/ekjS7",
     linkedin: "https://www.linkedin.com/in/qu%E1%BB%91c-vinh-tr%E1%BB%8Bnh-l%C3%A2m-877015345/",
     tryhackme: "https://tryhackme.com/p/sjke",
   },
@@ -188,8 +188,15 @@ const config: SiteConfig = {
     {
       name: "TryHackMe Path Completion",
       issuer: "TryHackMe",
+      date: "2025",
       link: "https://tryhackme.com/p/sjke",
     },
+    {
+      name: "Cisco Networking Academy",
+      issuer: "Cisco",
+      date: "2025",
+      link: "https://www.netacad.com/courses/ethical-hacker?courseLang=en-US",
+    }
   ],
   nav: [
     { label: "Home", href: "/" },
