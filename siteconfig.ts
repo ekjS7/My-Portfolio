@@ -81,7 +81,7 @@ const config: SiteConfig = {
   avatar: "/avatar.jpg",
   socials: {
     github: "https://github.com/ekjS7",
-    linkedin: "https://www.linkedin.com/in/qu%E1%BB%91c-vinh-tr%E1%BB%8Bnh-l%C3%A2m-877015345/",
+    linkedin: "https://www.linkedin.com/in/trqvinh7/",
     tryhackme: "https://tryhackme.com/p/sjke",
   },
   skills: {
